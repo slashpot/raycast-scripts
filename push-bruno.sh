@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title pull bruno
+# @raycast.title push bruno
 # @raycast.mode inline
 # Optional parameters:
 # @raycast.icon 🎮
@@ -12,7 +12,7 @@
 # @raycast.description Pulls the latest changes from the bruno repository
 
 PROJECT_PATH="$HOME/dev/bruno.config"
-NOW=$(date +%Y-%m-%d-%H-%M-%S)
+NOW=$(date "+%Y-%m-%d %H:%M:%S")
 
 # Pull the latest changes
 cd $PROJECT_PATH
